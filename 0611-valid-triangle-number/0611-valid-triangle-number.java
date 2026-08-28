@@ -1,5 +1,8 @@
 class Solution {
     public int triangleNumber(int[] nums) {
+
+        // Brute Force
+
         Arrays.sort(nums);
         int n = nums.length;
         int count = 0;
